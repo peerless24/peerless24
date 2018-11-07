@@ -1,3 +1,11 @@
+---
+layout:     post
+title:      记一次大数据量调优的过程
+no-post-nav: true
+category: life
+tags: [life]
+excerpt: 调优经验。
+---
 ### 一、背景介绍
 **1、系统的架构是spring+mybaties+oracle。**
 **2、系统处理的数据量在五十万到百万级之间，采用了kafka进行分布式处理，主要功能和要优化的模块在数据清算和数据导出。**
